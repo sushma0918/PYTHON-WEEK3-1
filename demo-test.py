@@ -1,0 +1,10 @@
+import numpy as np
+matrix=np.array([[11,21,31],[41,51,61],[71,81,91]])
+print("matrix:",matrix)
+print("transpose:",matrix.T)
+print("sum of all elements:",np.sum(matrix))
+print("row-wise sum:",np.sum(matrix,axis=1))
+print("colum wise sum:",np.sum(matrix,axis=0))
+print("mean:",np.mean(matrix))
+print("maximum element:",np.max(matrix))
+print("minimum element:",np.min(matrix))
